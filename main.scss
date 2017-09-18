@@ -18,13 +18,17 @@ body{
 }
 a {
   text-decoration: none;
+  color: black;
   &:hover{
     text-decoration: none;
+    color: black;
   }
   &:focus{
     text-decoration: none;
+    color: black;
   }
   &:visited{
     text-decoration: none;
+    color: black;
   }
 }

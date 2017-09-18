@@ -1,5 +1,5 @@
-$navButton-height: 25%;
-$navButton-width: 100%;
+$navButton-height: 20%;
+$navButton-width: 80%;
 @mixin flex($flex-direction, $justify, $align){
   display: flex;
   flex-direction: $flex-direction;
@@ -11,12 +11,20 @@ $navButton-width: 100%;
   height: $height;
 }
 .navBar{
-  @include flex(column, auto, auto);
+  @include flex(column, space-around, center);
   @include size(10%, 50%);
   background-color: $secondaryBlue;
   .navButton{
     @include flex(row, center, center);
     @include size($navButton-width, $navButton-height);
+    background-color: $primaryRed;
     font-family: $font-fam;
+    border-radius: 6px;
+    &:hover{
+      box-shadow: 0 0 5px 1px #dadfea;
+    }
+    &:active{
+      box-shadow: 0 0 5px 1px #333333;
+    }
   }
 }
