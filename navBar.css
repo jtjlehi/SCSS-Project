@@ -1,0 +1,9 @@
+.navBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50%; }
+  .navBar .navButton {
+    width: 100%; }
+
+/*# sourceMappingURL=navBar.css.map */
