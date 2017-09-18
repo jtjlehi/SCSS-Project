@@ -1,0 +1,33 @@
+$navButton-height: 20%;
+$navButton-width: 80%;
+@mixin flex($flex-direction, $justify, $align){
+  display: flex;
+  flex-direction: $flex-direction;
+  justify-content: $justify;
+  align-items: $align;
+}
+@mixin size($width, $height){
+  width: $width;
+  height: $height;
+}
+.navBar{
+  @include flex(column, space-around, center);
+  @include size(10%, 50%);
+  background-color: $secondaryBlue;
+  .navButton{
+    @include flex(row, center, center);
+    @include size($navButton-width, $navButton-height);
+    background-color: $primaryRed;
+    font-family: $font-fam;
+    border-radius: 6px;
+    &:hover{
+      box-shadow: 0 0 5px 1px #dadfea;
+    }
+    &:active{
+      background-color: $darkerPrimaryRed;
+    }
+    .hidden{
+      display: none;
+    }
+  }
+}

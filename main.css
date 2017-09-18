@@ -1,3 +1,28 @@
+.navBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 10%;
+  height: 50%;
+  background-color: #54BEB3; }
+  .navBar .navButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 20%;
+    background-color: #EF3244;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 6px; }
+    .navBar .navButton:hover {
+      box-shadow: 0 0 5px 1px #dadfea; }
+    .navBar .navButton:active {
+      background-color: #8e2936; }
+    .navBar .navButton .hidden {
+      display: none; }
+
 html {
   height: 100%; }
 
@@ -8,12 +33,16 @@ body {
   height: 100%; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: black; }
   a:hover {
-    text-decoration: none; }
+    text-decoration: none;
+    color: black; }
   a:focus {
-    text-decoration: none; }
+    text-decoration: none;
+    color: black; }
   a:visited {
-    text-decoration: none; }
+    text-decoration: none;
+    color: black; }
 
 /*# sourceMappingURL=main.css.map */
