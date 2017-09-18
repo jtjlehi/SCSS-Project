@@ -1,0 +1,27 @@
+@import "main";
+
+.container{
+  .topsection{
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+  }
+.topright{
+  margin-top: 50px;
+  padding-left:25px;
+}
+
+  .bottomsection{
+    display: flex;
+    justify-content:flex-start;
+    text-align: center;
+  }
+  .bottomright{
+    padding-left: 50px;
+    margin-left:50px;
+  }
+  .bottomleft{
+    padding-left: 80px;
+    margin-left:80px;
+  }
+}
