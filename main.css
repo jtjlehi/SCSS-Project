@@ -19,7 +19,9 @@
     .navBar .navButton:hover {
       box-shadow: 0 0 5px 1px #dadfea; }
     .navBar .navButton:active {
-      box-shadow: 0 0 5px 1px #333333; }
+      background-color: #8e2936; }
+    .navBar .navButton .hidden {
+      display: none; }
 
 html {
   height: 100%; }
