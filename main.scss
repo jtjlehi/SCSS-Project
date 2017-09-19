@@ -2,11 +2,14 @@ $primaryRed: #EF3244;
 $secondaryBlue: #54BEB3;
 $white: #ffffff;
 $darkerPrimaryRed: #8e2936;
+$primaryBlue: #01208A;
+$textBlue: #010A26;
+$highlightBlue: #B6D6F2;
+$linkRed: #E83338;
 $base-font-size: 12px;
 $header-font-size: 25px;
 $base-padding: 15px;
 $font-fam: 'Open Sans', sans-serif;
-@import "navBar";
 
 html{
   height: 100%;
@@ -33,3 +36,5 @@ a {
     color: black;
   }
 }
+
+@import "navBar";
