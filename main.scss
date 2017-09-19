@@ -6,7 +6,6 @@ $base-font-size: 12px;
 $header-font-size: 25px;
 $base-padding: 15px;
 $font-fam: 'Open Sans', sans-serif;
-@import "navBar";
 
 html{
   height: 100%;
@@ -33,3 +32,5 @@ a {
     color: black;
   }
 }
+@import "social";
+@import "navBar";
