@@ -1,0 +1,42 @@
+
+.container {
+  display: flex;
+  border:2px solid $secondaryBlue;
+  margin:5px;
+  width:500px;
+}
+
+.container {
+  img {
+    padding: 10px;
+    align-items: center;
+    height: 100px;
+  }
+}
+
+.image {
+  img{
+    height: 100px;
+  }
+}
+
+.text {
+  h2 {
+    color:$primary-red;
+    text-align: center;
+    font-size: 25px;
+    line-height: 30px;
+  }
+  p {
+    color:$secondaryBlue;
+
+  }
+}
+
+
+
+
+
+
+
+
