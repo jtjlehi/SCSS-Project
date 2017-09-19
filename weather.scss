@@ -1,0 +1,35 @@
+@import "main";
+
+.container{
+  background-color: #B6D6F2;
+  width:500px;
+  .topsection{
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+  }
+.topright{
+  margin-top: 50px;
+  font-size: 25px;
+  margin-left:10px;
+}
+
+  .bottomsection{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+
+  }
+  .bottomright{
+    font-size:25px;
+    margin-left:50px;
+  }
+  .bottomleft{
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-right:110px;
+  }
+  .topleft{
+    opacity: .8;
+  }
+}
