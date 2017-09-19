@@ -1,6 +1,8 @@
 @import "main";
 
 .container{
+  background-color: #54BEB3;
+  width:500px;
   .topsection{
     display: flex;
     justify-content: flex-start;
@@ -8,20 +10,26 @@
   }
 .topright{
   margin-top: 50px;
-  padding-left:25px;
+  font-size: 25px;
+  margin-left:10px;
 }
 
   .bottomsection{
-    display: flex;
-    justify-content:flex-start;
+    display:flex;
+    justify-content: space-between;
     text-align: center;
+
   }
   .bottomright{
-    padding-left: 50px;
+    font-size:25px;
     margin-left:50px;
   }
   .bottomleft{
-    padding-left: 80px;
-    margin-left:80px;
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-right:110px;
+  }
+  .topleft{
+    opacity: .8;
   }
 }

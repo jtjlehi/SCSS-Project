@@ -1,3 +1,28 @@
+.navBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 10%;
+  height: 50%;
+  background-color: #54BEB3; }
+  .navBar .navButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 20%;
+    background-color: #EF3244;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 6px; }
+    .navBar .navButton:hover {
+      box-shadow: 0 0 5px 1px #dadfea; }
+    .navBar .navButton:active {
+      background-color: #8e2936; }
+    .navBar .navButton .hidden {
+      display: none; }
+
 html {
   height: 100%; }
 
@@ -8,30 +33,41 @@ body {
   height: 100%; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: black; }
   a:hover {
-    text-decoration: none; }
+    text-decoration: none;
+    color: black; }
   a:focus {
-    text-decoration: none; }
+    text-decoration: none;
+    color: black; }
   a:visited {
-    text-decoration: none; }
+    text-decoration: none;
+    color: black; }
 
-.container .topsection {
-  display: flex;
-  justify-content: flex-start;
-  text-align: center; }
-.container .topright {
-  margin-top: 50px;
-  padding-left: 25px; }
-.container .bottomsection {
-  display: flex;
-  justify-content: flex-start;
-  text-align: center; }
-.container .bottomright {
-  padding-left: 50px;
-  margin-left: 50px; }
-.container .bottomleft {
-  padding-left: 80px;
-  margin-left: 80px; }
+.container {
+  background-color: #54BEB3;
+  width: 500px; }
+  .container .topsection {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center; }
+  .container .topright {
+    margin-top: 50px;
+    font-size: 25px;
+    margin-left: 10px; }
+  .container .bottomsection {
+    display: flex;
+    justify-content: space-between;
+    text-align: center; }
+  .container .bottomright {
+    font-size: 25px;
+    margin-left: 50px; }
+  .container .bottomleft {
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-right: 110px; }
+  .container .topleft {
+    opacity: .8; }
 
 /*# sourceMappingURL=weather.css.map */
